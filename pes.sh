@@ -30,7 +30,7 @@ echo "" >> privEsc.txt
 cat /etc/crontab >> privEsc.txt
 echo "" >> privEsc.txt
 echo "root squash" >> privEsc.txt
-cat /etc/exports >> privEsc.txt
+cat /etc/exports 2>/dev/null >> privEsc.txt
 }
 
 
